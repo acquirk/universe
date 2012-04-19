@@ -1,0 +1,66 @@
+<universe>
+	<galaxy name="Milky Way" type="spiral">
+		<star name="Sun" type="yellowDwarf" mass="2×10^30 kg" spectralCLass="G2V" magnitude="+4.83" lightyearsFromGalacticCore="26000" age="4,570,000,000">
+			<planetarySystem>
+				<planet type="solid" name="Mercury">
+					<atmosphere composition="methane">
+						<surface />
+						<inhabitants />
+					</atmosphere>
+				</planet>
+				<planet type="solid" name="Venus">
+					<atmosphere composition="methane">
+						<surface />
+						<inhabitants />
+					</atmosphere>
+				</planet>
+				<planet type="solid" name="Earth">
+					<atmosphere composition="methane">
+						<surface />
+						<inhabitants />
+					</atmosphere>
+				</planet>
+				<planet type="solid" name="Mars">
+					<atmosphere composition="methane">
+						<surface />
+						<inhabitants />
+					</atmosphere>
+				</planet>
+				<asteroidBelt>
+					<asteroids quantity="lots" size="10M">
+					<protoPlanet name="Ceres" />
+				</asteroidBelt>
+				<planet type="gas" name="Jupiter" distanceFromStar="5.2">
+					<satellites qty="66">
+						<satellite name="Ganymede" />
+						<satellite name="Callisto" />
+						<satellite name="Io" />
+						<satellite name="Europa" />
+					</satellites>
+					<atmosphere helium="24%" hydrogen="65%" oxygen="12%" nitrogen="12%">
+						<surface />
+						<life supported="no" />
+					</atmosphere>
+				</planet>
+				<planet type="solid" name="Saturn">
+					<atmosphere composition="methane">
+						<surface />
+						<inhabitants />
+					</atmosphere>
+				</planet>
+				<planet type="solid" name="Uranus">
+					<atmosphere composition="methane">
+						<surface />
+						<inhabitants />
+					</atmosphere>
+				</planet>
+				<planet type="solid" name="Neptune">
+					<atmosphere composition="methane">
+						<surface />
+						<inhabitants />
+					</atmosphere>
+				</planet>
+			</planetarySystem>
+		</star>
+	</galaxy>
+<universe>
