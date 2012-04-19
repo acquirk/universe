@@ -27,7 +27,7 @@
 					</atmosphere>
 				</planet>
 				<asteroidBelt>
-					<asteroids quantity="lots" size="10M">
+					<asteroids quantity="lots" size="10M" />
 					<protoPlanet name="Ceres" />
 				</asteroidBelt>
 				<planet type="gas" name="Jupiter" distanceFromStar="5.2">
