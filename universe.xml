@@ -1,26 +1,24 @@
-<universe>
-	<galaxy name="Milky Way" type="spiral">
-		<star name="Sun" type="yellowDwarf" mass="2×10^30 kg" spectralCLass="G2V" magnitude="+4.83" lightyearsFromGalacticCore="26000" age="4,570,000,000">
+<universe name="Universe" age="13,200,000,000" radiusLightYears="46,000,000,000">
+	<darkMatter qty="99.95%" />
+	<galaxy name="Milky Way" type="barredSpiral" age="13,200,000,000" radiusLightYears="120,000">
+		<star name="Sun" type="yellowDwarf" spectralCLass="G2V" magnitude="+4.83" mass="2×10^30 kg" volume="1.412×10^18 km3" lightyearsFromGalacticCore="26000" age="4,570,000,000">
 			<planetarySystem>
-				<planet type="solid" name="Mercury">
-					<atmosphere composition="methane">
-						<surface />
-						<inhabitants />
+				<planet name="Mercury" type="terrestrial" orbitalPeriod="87.969" mass="3.3022x10^23 kg" radius="2,439.7 km">
+					<atmosphere oxygen="42%" sodium="29%" hydrogen="22%" helium="6%" potassium="0.5%">
+						<life contents="nil" />
 					</atmosphere>
 				</planet>
-				<planet type="solid" name="Venus">
-					<atmosphere composition="methane">
-						<surface />
-						<inhabitants />
+				<planet name="Venus" type="terrestrial" orbitalPeriod="224.700" mass="4.8685×10^24 kg" radius="6,051.8 km">
+					<atmosphere carbonDioxide="96.5%" nitrogen="3.5%" sulfurDioxide="0.015%" argon="0.007%" carbonMonoxide="0.0017%" helium="0.0012%" neon="0.0007%">
+						<life contents="nil" />
 					</atmosphere>
 				</planet>
-				<planet type="solid" name="Earth">
+				<planet name="Earth">
 					<atmosphere composition="methane">
-						<surface />
-						<inhabitants />
+						<life contents="homoSapiens" />
 					</atmosphere>
 				</planet>
-				<planet type="solid" name="Mars">
+				<planet name="Mars">
 					<atmosphere composition="methane">
 						<surface />
 						<inhabitants />
@@ -63,4 +61,4 @@
 			</planetarySystem>
 		</star>
 	</galaxy>
-<universe>
+</universe>
